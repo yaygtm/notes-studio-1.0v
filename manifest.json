@@ -1,0 +1,84 @@
+{
+  "id": "/index.html",
+  "name": "Notes Studio 1.0",
+  "short_name": "Notes Studio",
+  "description": "Offline-first notes with Markdown, LaTeX math, diagrams and 1-4 column book style printing.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#FBF6E2",
+  "theme_color": "#2563EB",
+  "categories": ["productivity", "education", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New note",
+      "short_name": "New note",
+      "description": "Start a blank note",
+      "url": "./notes-studio-1.0v.html?action=new",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Templates",
+      "short_name": "Templates",
+      "description": "Class notes, question paper, lab record",
+      "url": "./notes-studio-1.0v.html?action=templates",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Latest note",
+      "short_name": "Latest note",
+      "description": "Open the most recently edited note",
+      "url": "./notes-studio-1.0v.html?action=last",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./notes-studio-1.0v.html",
+      "accept": {
+        "text/markdown": [".md", ".markdown", ".mdown"],
+        "text/plain": [".txt"],
+        "image/svg+xml": [".svg"],
+        "application/json": [".json"]
+      },
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }],
+      "launch_type": "single-client"
+    }
+  ]
+}
