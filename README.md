@@ -1,4 +1,4 @@
-# Notes Studio 1.0 best Markdown editor and Markdown to native pdf/html converter.
+# Notes Studio 1.0 best Markdown editor and Markdown to native pdf/html converter pwa app
 
 📝 Notes Studio V1.0 – Descriptive User Guide
 
